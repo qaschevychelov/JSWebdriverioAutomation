@@ -9,6 +9,6 @@ module.exports = class Page {
     */
     open (path) {
         browser.maximizeWindow()
-        return browser.url(`https://the-internet.herokuapp.com/${path}`)
+        return browser.url(path)
     }
 }

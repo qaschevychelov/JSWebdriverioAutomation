@@ -24,8 +24,8 @@ class LoginPage extends Page {
     /**
      * overwrite specifc options to adapt it to page object
      */
-    open () {
-        return super.open('login');
+    open (url) {
+        return super.open(url);
     }
 }
 

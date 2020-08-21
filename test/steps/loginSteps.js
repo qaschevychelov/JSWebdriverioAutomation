@@ -1,18 +1,25 @@
-const LoginPage = require('../pages/login.page');
-const SecurePage = require('../pages/secure.page');
+const loginPage = require('../pages/login.page');
+const homePage = require('../pages/home.page');
 
 class LoginSteps {
-    open() {
-        LoginPage.open();
+    open(url) {
+        loginPage.open(url);
     }
+    
     checkIfWeLoggedIn() {
-        expect(SecurePage.flashAlert).toBeVisible()
-        expect(SecurePage.flashAlert).toHaveTextContaining(
-            'You logged into a secure area!')
+        expect(homePage.profileName).toBeVisible()
+        expect(homePage.profileName).toHaveText(`Andrew Fuller`)
     }
 
     login(login, pass) {
-        LoginPage.login(login, pass)
+        loginPage.login(login, pass)
+    }
+
+    createMsg(subject, who, text) {
+        homePage.newMsg.click();
+        homePage.who.setValue(who)
+        homePage.subject.setValue(subject)
+        homePage.description.setValue(text)
     }
 }
 module.exports = new LoginSteps();
