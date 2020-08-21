@@ -1,3 +1,5 @@
+require("ts-node").register({files: true});
+
 exports.config = {
     //
     // ====================

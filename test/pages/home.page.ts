@@ -1,9 +1,9 @@
-const Page = require('./page');
+import {page} from "./page";
 
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class HomePage extends Page {
+class homePage extends page {
     /**
      * define selectors using getter methods
      */
@@ -16,6 +16,21 @@ class HomePage extends Page {
     get subject() {return $(`//input[@id='txtSubject']`)}
     
     get description() {return $(`//div[@id='mailContentMessage']`)}
-}
 
-module.exports = new HomePage();
+    setWho(name: String) {
+        this.who.setValue(name)
+    }
+
+    setSubject(subj: String) {
+        this.subject.setValue(subj)
+    }
+
+    setDescription(desc: String) {
+        this.description.setValue(desc)
+    }
+
+    clickNewMsg() {
+        this.newMsg.click()
+    }
+}
+export {homePage}

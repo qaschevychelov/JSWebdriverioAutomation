@@ -1,9 +1,9 @@
-const Page = require('./page');
+import {page} from "./page";
 
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class LoginPage extends Page {
+class loginPage extends page {
     /**
      * define selectors using getter methods
      */
@@ -18,7 +18,7 @@ class LoginPage extends Page {
     login (username, password) {
         this.inputUsername.setValue(username);
         this.inputPassword.setValue(password);
-        this.btnSubmit.click(); 
+        this.btnSubmit.click();
     }
 
     /**
@@ -28,5 +28,4 @@ class LoginPage extends Page {
         return super.open(url);
     }
 }
-
-module.exports = new LoginPage();
+export {loginPage}
