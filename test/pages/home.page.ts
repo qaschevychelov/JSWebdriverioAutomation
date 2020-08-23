@@ -1,11 +1,12 @@
 import {page} from "./page";
 
 /**
- * sub page containing specific selectors and methods for a specific page
+ * Домашняя страница
+ * локаторы
  */
 class homePage extends page {
     /**
-     * define selectors using getter methods
+     * используем геттеры
      */
     get profileName() { return $('//*[@id="btnLoginName"]') }
 
@@ -17,20 +18,6 @@ class homePage extends page {
     
     get description() {return $(`//div[@id='mailContentMessage']`)}
 
-    setWho(name: String) {
-        this.who.setValue(name)
-    }
-
-    setSubject(subj: String) {
-        this.subject.setValue(subj)
-    }
-
-    setDescription(desc: String) {
-        this.description.setValue(desc)
-    }
-
-    clickNewMsg() {
-        this.newMsg.click()
-    }
+    get addresat() {return $$(`//*[@id='autoTo_popup']//*[@class='contacts-item-subtext-style']`)}
 }
 export {homePage}

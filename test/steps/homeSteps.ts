@@ -1,6 +1,9 @@
 import {loginPage} from "../pages/login.page";
 import {homePage} from "../pages/home.page";
+import { on } from "process";
+import { assert } from "console";
 
+// объекты
 let $loginPage = new loginPage();
 let $homePage = new homePage();
 
@@ -9,16 +12,26 @@ class homeSteps {
         $loginPage.open(url);
     }
     
+    /**
+     * Метод проверяет авторизацию
+     */
     public checkIfWeLoggedIn() {
         expect($homePage.profileName).toBeVisible()
         expect($homePage.profileName).toHaveText(`Andrew Fuller`)
     }
 
-    public createMsg(subject, who, text) {
-        $homePage.clickNewMsg();
-        $homePage.setWho(who)
-        $homePage.setSubject(subject)
-        $homePage.setDescription(text)
+    /**
+     * Метод создает новоое сообщение и заполняет основные поля
+     * @param subject string тема письма
+     * @param text string само письмо
+     */
+    public createMsg(subject: string, text: string) {
+        $homePage.newMsg.click()
+        $homePage.who.click()
+        $homePage.addresat[0].waitForDisplayed()
+        $homePage.addresat[0].click()
+        $homePage.subject.setValue(subject)
+        $homePage.description.setValue(text)
     }
 }
 export {homeSteps}
