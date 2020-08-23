@@ -1,5 +1,12 @@
-import {homeSteps} from '../steps/homeSteps';
-import * as fakerr from 'faker';
+import {homeSteps} from '../steps/homeSteps'
+import * as faker from 'faker/locale/ru'
+import * as assert from "assert";
+import * as chai from "chai";
+
+// ассерты
+let ass = chai.assert;
+let exp = chai.expect;
+let should = chai.should;
 
 // объекты
 let $homeSteps = new homeSteps();
@@ -13,6 +20,6 @@ describe('[ЧС] C1234577 Проверка отправки сообщения',
         $homeSteps.checkIfWeLoggedIn()
     });
     it('[ЧС] C1234577 Создаем письмо', () => {
-        $homeSteps.createMsg("Тема письма", `Само письмо`)
+        $homeSteps.createMsg(`Тема письма для ` + faker.name.firstName(0), `Само письмо`)
     });
 });
