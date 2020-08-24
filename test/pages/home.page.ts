@@ -1,10 +1,10 @@
-import {page} from "./page";
+import {Page} from "./page";
 
 /**
  * Домашняя страница
  * локаторы
  */
-class homePage extends page {
+class HomePage extends Page {
     /**
      * используем геттеры
      */
@@ -20,4 +20,4 @@ class homePage extends page {
 
     get addresat() {return $$(`//*[@id='autoTo_popup']//*[@class='contacts-item-subtext-style']`)}
 }
-export {homePage}
+export const homePage = new HomePage()

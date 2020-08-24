@@ -3,21 +3,17 @@ import {homePage} from "../pages/home.page";
 import { on } from "process";
 import { assert } from "console";
 
-// объекты
-let $loginPage = new loginPage();
-let $homePage = new homePage();
-
-class homeSteps {
+class HomeSteps {
     public open(url) {
-        $loginPage.open(url);
+        loginPage.open(url);
     }
     
     /**
      * Метод проверяет авторизацию
      */
     public checkIfWeLoggedIn() {
-        expect($homePage.profileName).toBeVisible()
-        expect($homePage.profileName).toHaveText(`Andrew Fuller`)
+        expect(homePage.profileName).toBeVisible()
+        expect(homePage.profileName).toHaveText(`Andrew Fuller`)
     }
 
     /**
@@ -26,12 +22,12 @@ class homeSteps {
      * @param text string само письмо
      */
     public createMsg(subject: string, text: string) {
-        $homePage.newMsg.click()
-        $homePage.who.click()
-        $homePage.addresat[0].waitForDisplayed()
-        $homePage.addresat[0].click()
-        $homePage.subject.setValue(subject)
-        $homePage.description.setValue(text)
+        homePage.newMsg.click()
+        homePage.who.click()
+        homePage.addresat[0].waitForDisplayed()
+        homePage.addresat[0].click()
+        homePage.subject.setValue(subject)
+        homePage.description.setValue(text)
     }
 }
-export {homeSteps}
+export const homeSteps = new HomeSteps()

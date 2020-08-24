@@ -1,9 +1,9 @@
-import {page} from "./page";
+import {Page} from "./page";
 
 /**
  * Страница авторизации
  */
-class loginPage extends page {
+class LoginPage extends Page {
     
     /**
      * Метод открывает ссылку
@@ -13,4 +13,4 @@ class loginPage extends page {
         return super.open(url);
     }
 }
-export {loginPage}
+export const loginPage = new LoginPage()

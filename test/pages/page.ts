@@ -3,7 +3,7 @@ import { updateFunctionDeclaration } from "typescript"
 /**
 * базовая страница с общими методами
 */
-class page {
+export class Page {
     anyText(text: string) { return `=${text}`}
     
     /**
@@ -22,4 +22,4 @@ class page {
         $(this.anyText(text)).click()
     }
 }
-export {page}
+export const page = new Page()
