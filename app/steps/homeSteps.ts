@@ -1,10 +1,9 @@
-import {loginPage} from "../pages/login.page";
-import {homePage} from "../pages/home.page";
-import { on } from "process";
-import { assert } from "console";
+import { loginPage } from "../home/pages/login.page";
+import { homePage } from "../home/pages/home.page";
+import { Message } from "../home/models/msg";
 
 class HomeSteps {
-    public open(url) {
+    public open(url: string) {
         loginPage.open(url);
     }
     
@@ -21,13 +20,13 @@ class HomeSteps {
      * @param subject string тема письма
      * @param text string само письмо
      */
-    public createMsg(subject: string, text: string) {
+    public createMsg(msg: Message) {
         homePage.newMsg.click()
         homePage.who.click()
         homePage.addresat[0].waitForDisplayed()
         homePage.addresat[0].click()
-        homePage.subject.setValue(subject)
-        homePage.description.setValue(text)
+        homePage.subject.setValue(msg.subject)
+        homePage.description.setValue(msg.message)
     }
 }
 export const homeSteps = new HomeSteps()
