@@ -17,13 +17,12 @@ class HomeSteps {
 
     /**
      * Метод создает новоое сообщение и заполняет основные поля
-     * @param subject string тема письма
-     * @param text string само письмо
+     * @param msg Message письмо
      */
     public createMsg(msg: Message) {
         homePage.newMsg.click()
-        homePage.who.click()
-        homePage.addresat[0].waitForDisplayed()
+        homePage.who.waitForDisplayed()
+        homePage.clickWho()
         homePage.addresat[0].click()
         homePage.subject.setValue(msg.subject)
         homePage.description.setValue(msg.message)

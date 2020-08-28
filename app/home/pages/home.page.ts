@@ -19,5 +19,22 @@ class HomePage extends Page {
     get description() {return $(`//div[@id='mailContentMessage']`)}
 
     get addresat() {return $$(`//*[@id='autoTo_popup']//*[@class='contacts-item-subtext-style']`)}
+
+    /**
+     * Метод раскрывает список адресатов
+     */
+    clickWho() {
+        let prevCount = homePage.addresat.length;
+        this.who.click()
+        this.who.waitForDisplayed()
+        browser.waitUntil(
+            () => {
+                return this.addresat.length > prevCount        
+            },
+            {
+                timeoutMsg: 'Не дождался раскрытия списка адресатов!'
+            }
+        )
+    }
 }
 export const homePage = new HomePage()

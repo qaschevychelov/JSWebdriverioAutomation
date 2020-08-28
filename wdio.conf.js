@@ -1,6 +1,9 @@
 require("ts-node").register({files: true});
 
 exports.config = {
+    // hostname: '192.168.192.1',
+    // port: 4444,
+    // path: '/wd/hub',
     //
     // ====================
     // Runner Configuration
@@ -60,7 +63,13 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }],
+    },
+    /* {
+        maxInstances: 5,
+        browserName: 'firefox',
+        acceptInsecureCerts: true
+    } */
+    ],
     //
     // ===================
     // Test Configurations
@@ -182,6 +191,7 @@ exports.config = {
      */
     before: function (capabilities, specs) {
         browser.maximizeWindow()
+        browser.setTimeout({'implicit': 2000})
     },
     /**
      * Runs before a WebdriverIO command gets executed.
