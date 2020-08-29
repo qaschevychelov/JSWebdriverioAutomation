@@ -1,6 +1,8 @@
+const { resolve } = require("dns");
+
 require("ts-node").register({files: true});
 
-exports.config = {
+let wdioConfig = {
     // hostname: '192.168.192.1',
     // port: 4444,
     // path: '/wd/hub',
@@ -181,18 +183,21 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // beforeSession: function (config, capabilities, specs) {
-    // },
+    beforeSession: function (config, capabilities, specs) {
+        if (process.env.DEBUG == '1') {
+            return new Promise(resolve => setTimeout(resolve, 2000))
+        }
+    },
     /**
      * Gets executed before test execution begins. At this point you can access to all global
      * variables like `browser`. It is the perfect place to define custom commands.
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    before: function (capabilities, specs) {
-        browser.maximizeWindow()
-        browser.setTimeout({'implicit': 2000})
-    },
+    // before: function (capabilities, specs) {
+        // browser.maximizeWindow()
+        // browser.setTimeout({'implicit': 2000})
+    // },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -209,8 +214,10 @@ exports.config = {
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test, context) {
-    // },
+    beforeTest: function (test, context) {
+        browser.maximizeWindow()
+        browser.setTimeout({implicit: 2000})
+    },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
@@ -226,8 +233,9 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+        browser.reloadSession()
+    },
 
 
     /**
@@ -252,9 +260,9 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that ran
      */
-    after: function (result, capabilities, specs) {
-        browser.reloadSession()
-    },
+    /* after: function (result, capabilities, specs) {
+        
+    }, */
     /**
      * Gets executed right after terminating the webdriver session.
      * @param {Object} config wdio configuration object
@@ -281,3 +289,11 @@ exports.config = {
     //onReload: function(oldSessionId, newSessionId) {
     //}
 }
+
+if (process.env.DEBUG == '1') {
+    console.log('Запуск в режиме дебага!') 
+    wdioConfig.maxInstances = 1,
+    wdioConfig['execArgv'] = ["--inspect=127.0.0.1:5858"]
+    wdioConfig.mochaOpts.timeout = 360000
+}
+exports.config = wdioConfig

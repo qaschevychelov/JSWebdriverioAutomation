@@ -2,9 +2,10 @@
   "name": "firstjstestframework",
   "version": "1.0.0",
   "private": "true",
-  "description": "My first approach to creating of JS test automation framework",
+  "description": "My first approach of creating of JS test automation framework",
   "scripts": {
-    "test": "npx wdio run wdio.conf.js"
+    "test": "npx wdio run wdio.conf.js",
+    "debug": "npx wdio run wdio.conf.js --spec ./test/specs/feature1.ts"
   },
   "author": "Sergey Chevychelov <qa.schevychelov@gmail.com>",
   "license": "MIT",
