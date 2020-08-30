@@ -21,6 +21,7 @@ class HomeSteps {
      */
     public createMsg(msg: Message) {
         homePage.newMsg.click()
+        homePage.newMsg.waitForInvisible()
         homePage.who.waitForDisplayed()
         homePage.clickWho()
         homePage.addresat[0].click()

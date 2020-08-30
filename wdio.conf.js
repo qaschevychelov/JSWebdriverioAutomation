@@ -217,6 +217,23 @@ let wdioConfig = {
     beforeTest: function (test, context) {
         browser.maximizeWindow()
         browser.setTimeout({implicit: 2000})
+
+        browser.addCommand('waitForInvisible', function() {
+            let counter = 0
+            let isHidden = false
+            do {
+                counter++
+                browser.pause(1000)
+                try {
+                    this.waitForDisplayed()
+                    console.log('Элемент все еще виден ')
+                } catch (error) {
+                    isHidden = true
+                }
+            } while (!isHidden && counter <= 10);
+            if (!isHidden) throw new Error("Элемент все еще отображается на экране!")
+            return isHidden
+        }, true)
     },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling

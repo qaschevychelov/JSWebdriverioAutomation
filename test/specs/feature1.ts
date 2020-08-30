@@ -22,7 +22,7 @@ describe('Проверка отправки сообщения', function() {
         homeSteps.open(url)
         homeSteps.checkIfWeLoggedIn()
     });
-    it('[ЧС] C1234577 Создаем письмо', function() {
+    it.only('[ЧС] C1234577 Создаем письмо', function() {
         homeSteps.open(url)
         homeSteps.createMsg(msg)
     });

@@ -10,6 +10,7 @@
             "@wdio/mocha-framework",
             "@types/faker"
         ],
+        "typeRoots": ["./types"],
         "module": "commonjs",
         "target": "es6"
     }
