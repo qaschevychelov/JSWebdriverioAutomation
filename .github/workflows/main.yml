@@ -21,8 +21,6 @@ jobs:
             - name: Tests
               run: SELENOID=true npm test
             - name: Create Report
-              run: 
-              run: 
               if: always()
               # пытаемся сохранить историю предыдущих прогонов, если она была
               run: git config --global user.email "qa.schevychelov@gmail.com" && \
