@@ -138,7 +138,18 @@ let wdioConfig = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
+    reporters: [
+        'spec',
+        [
+            "allure",
+            {
+                outputDir: "allure-results",
+                disableMochaHooks: false,
+                disableWebdriverStepsReporting: true,
+                disableWebdriverScreenshotReporting: true
+            }
+        ]
+    ],
 
 
     
@@ -253,6 +264,11 @@ let wdioConfig = {
     afterTest: function(test, context, { error, result, duration, passed, retries }) {
         browser.reloadSession()
     },
+    afterTest: function(test) {
+        if (test.error !== undefined) {
+            browser.takeScreenshot()
+        }
+    }
 
 
     /**

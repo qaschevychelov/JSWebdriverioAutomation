@@ -23,9 +23,7 @@ jobs:
             - name: Create Report
               if: always()
               # пытаемся сохранить историю предыдущих прогонов, если она была
-              run: git config --global user.email "qa.schevychelov@gmail.com" && \
-                   git config --global user.name "Sergey Chevychelov" && \
-                   cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && \
+              run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && \
                    npm run report
             - uses: actions/upload-artifact@v1
               if: always()
