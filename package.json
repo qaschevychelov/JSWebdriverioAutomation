@@ -5,7 +5,8 @@
   "description": "My first approach of creating of JS test automation framework",
   "scripts": {
     "test": "npx wdio run wdio.conf.js",
-    "debug": "npx wdio run wdio.conf.js --spec ./test/specs/feature1.ts"
+    "debug": "npx wdio run wdio.conf.js --spec ./test/specs/feature1.ts",
+    "report": "allure generate"
   },
   "author": "Sergey Chevychelov <qa.schevychelov@gmail.com>",
   "license": "MIT",
@@ -20,6 +21,8 @@
     "@wdio/spec-reporter": "^6.4.0",
     "@wdio/sync": "^6.4.0",
     "@types/faker": "4.1.7",
+    "@wdio/allure-reporter": "^5.16.16",
+    "allure-commandline": "^2.13.0",
     "chromedriver": "^84.0.1",
     "wdio-chromedriver-service": "^6.0.3",
     "typescript": "4.0.2",
