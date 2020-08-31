@@ -1,0 +1,31 @@
+jobs:
+    tests:
+        run-on: ubuntu-latest
+        name: Run WDIO tests
+        steps:
+            - name: Start Selenoid Server
+              uses: Xotabu4/selenoid-github-action@v1
+            - uses: actions/checkout@v1
+            - name: Install Dependencies
+              env:
+                SELENOID: true
+              run: npm ci
+            - name: Tests
+              run: SELENOID=true npm test
+            - name: Create Report
+              if: always()
+              # пытаемся сохранить историю предыдущих прогонов, если она была
+              run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run report
+            - uses: actions/upload-artifact@v1
+              if: always()
+              with:
+                name: allure-report
+                path: ./allure-report
+            - name: Deploy report
+              uses: JamesIves/github-pages-deploy-action@3.1.0
+              if: always()
+              with:
+                ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+                BRANCH: master # The branch the action should deploy to.
+                FOLDER: allure-report # The folder the action should deploy.
+                TARGET_FOLDER: docs
