@@ -30,6 +30,8 @@ jobs:
                 name: allure-report
                 path: ./allure-report
             - name: Deploy report
+              run: git config --global user.email "qa.schevychelov@gmail.com"
+              run: git config --global user.name "Sergey Chevychelov"
               uses: JamesIves/github-pages-deploy-action@3.1.0
               if: always()
               with:
