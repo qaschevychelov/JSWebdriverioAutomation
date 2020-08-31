@@ -8,7 +8,7 @@ on:
         - 'docs/**'
 jobs:
     tests:
-        run-on: ubuntu-latest
+        runs-on: ubuntu-latest
         name: Run WDIO tests
         steps:
             - name: Start Selenoid Server
