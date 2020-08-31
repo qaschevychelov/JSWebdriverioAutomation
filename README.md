@@ -7,6 +7,22 @@
     1. via `npm install` and then `npm test`
     2. or via `npm cit` - this command will fetch project dependencies and run tests
 
+ # The simplest way of test running with docker-compose on Selenoid
+ 1. `cd` in the folder `selenoid`
+ 2. in cmd run `docker-compose up -d` - docker will download and deploy Selenoid (back & front)
+ 3. in cmd run `docker pull selenoid/vnc_chrome:<VERSION>` - we need to manually download `vnc`-versions of browsers
+    1. `VERSION` - you cand set this version in a file `selenoid/config/browsers.json` and use in the command above
+ 4. in order to run tests use the following command in cmd `$env:SELENOID='true' ; npm test`
+ 5. if you need to kill Selenoid run the following command `docker-compose down`
+
+ 
+ # In Order to run in parallel with Selenoid (on Windows)
+ 1. `cd` in the folder `selenoid`
+ 2. in cmd run `selenoid.exe selenoid --args "-limit 10" start --vnc`
+ 3. in cmd run `selenoid.exe selenoid-ui start`
+ 4. in order to run tests use the following command in cmd `$env:SELENOID='true' ; npm test`
+
+
  # In Order to use Chrome and Firefox simultaneously you need to do the following:
 1. open `wdio.conf.js`
 2. comment line `services:`
@@ -17,13 +33,5 @@
 7. in `wdio.conf.js` set `hostname: '<IP of grid hub>'`
 8. in `wdio.conf.js` set `port: 4444`
 9. in `wdio.conf.js` set `path: '/wd/hub'`
-
- # In Order to run in parallel with Selenoid (on Windows)
- 1. `cd` in the folder `selenoid`
- 2. in cmd run `selenoid.exe selenoid --args "-limit 10" start --vnc`
- 3. in cmd run `selenoid.exe selenoid-ui start`
- 4. in order to run tests use the following command in cmd `$env:SELENOID='true' ; npm test`
-
- ### docker-compose.yml doesn't work on Windows currently. Work in progress on it
 
 [link]: https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi
