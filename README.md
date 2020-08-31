@@ -20,7 +20,7 @@
 
  # In Order to run in parallel with Selenoid (on Windows)
  1. `cd` in the folder `selenoid`
- 2. in cmd run `selenoid.exe selenoid start --vnc`
+ 2. in cmd run `selenoid.exe selenoid --args "-limit 10" start --vnc`
  3. in cmd run `selenoid.exe selenoid-ui start`
  4. in order to run tests use the following command in cmd `$env:SELENOID='true' ; npm test`
 
