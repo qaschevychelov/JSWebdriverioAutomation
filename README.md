@@ -23,7 +23,7 @@
  4. in order to run tests use the following command in cmd `$env:SELENOID='true' ; npm test`
 
 
- # In Order to use Chrome and Firefox simultaneously you need to do the following:
+ # The Selenium Grid Approach:
 1. open `wdio.conf.js`
 2. comment line `services:`
 3. uncomment firefox capability `maxInstances: 5`, `browserName: 'firefox'`, `acceptInsecureCerts: true`
