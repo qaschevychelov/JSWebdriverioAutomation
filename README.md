@@ -1,13 +1,16 @@
 # WebDriver.io Sample Project for JS Automation
 ## The 1st try of building automation with JS
 
-1. install [Node.js][link] (i use v12.18.3 LTS)
-2. `cd` to the project folder
-3. run tests both
+# Prerequisites (Windows)
+* install [Node.js][link] (i use v12.18.3 LTS)
+* `cd` to the project folder
+
+## 1 Approach: local run
+* run tests both
     1. via `npm install` and then `npm test`
     2. or via `npm cit` - this command will fetch project dependencies and run tests
 
- # The simplest way of test running with docker-compose on Selenoid
+ ## 2 Approach: The simplest way of test running with docker-compose on Selenoid
  1. `cd` in the folder `selenoid`
  2. in cmd run `docker-compose up -d` - docker will download and deploy Selenoid (back & front)
  3. in cmd run `docker pull selenoid/vnc_chrome:<VERSION>` - we need to manually download `vnc`-versions of browsers
@@ -16,14 +19,14 @@
  5. if you need to kill Selenoid run the following command `docker-compose down`
 
  
- # In Order to run in parallel with Selenoid (on Windows)
+ ## 3 Approach: In Order to run in parallel with Selenoid (on Windows)
  1. `cd` in the folder `selenoid`
  2. in cmd run `selenoid.exe selenoid --args "-limit 10" start --vnc`
  3. in cmd run `selenoid.exe selenoid-ui start`
  4. in order to run tests use the following command in cmd `$env:SELENOID='true' ; npm test`
 
 
- # The Selenium Grid Approach:
+## 4 Approach: The Selenium Grid Approach:
 1. open `wdio.conf.js`
 2. comment line `services:`
 3. uncomment firefox capability `maxInstances: 5`, `browserName: 'firefox'`, `acceptInsecureCerts: true`
