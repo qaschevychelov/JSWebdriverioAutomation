@@ -21,11 +21,14 @@ jobs:
             - name: Tests
               run: SELENOID=true npm test
             - name: Create Report
-              run: git config --global user.email "qa.schevychelov@gmail.com"
-              run: git config --global user.name "Sergey Chevychelov"
+              run: 
+              run: 
               if: always()
               # пытаемся сохранить историю предыдущих прогонов, если она была
-              run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run report
+              run: git config --global user.email "qa.schevychelov@gmail.com" && \
+                   git config --global user.name "Sergey Chevychelov" && \
+                   cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && \
+                   npm run report
             - uses: actions/upload-artifact@v1
               if: always()
               with:
