@@ -1,3 +1,11 @@
+name: WDIO Tests
+
+on:
+    push:
+        branches-ignore:
+        - '!master'
+        paths-ignore:
+        - 'docs/**'
 jobs:
     tests:
         run-on: ubuntu-latest
