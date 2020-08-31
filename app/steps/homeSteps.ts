@@ -1,9 +1,11 @@
 import { loginPage } from "../home/pages/login.page";
 import { homePage } from "../home/pages/home.page";
 import { Message } from "../home/models/msg";
+import allureReporter from '@wdio/allure-reporter'
 
 class HomeSteps {
     public open(url: string) {
+        allureReporter.addStep(`Открываем адрес ${url}`)
         loginPage.open(url);
     }
     
@@ -11,6 +13,7 @@ class HomeSteps {
      * Метод проверяет авторизацию
      */
     public checkIfWeLoggedIn() {
+        allureReporter.addStep(`Проверяем авторизацию`)
         expect(homePage.profileName).toBeVisible()
         expect(homePage.profileName).toHaveText(`Andrew Fuller`)
     }
@@ -20,6 +23,7 @@ class HomeSteps {
      * @param msg Message письмо
      */
     public createMsg(msg: Message) {
+        allureReporter.addStep(`Создаем письмо с темой '${msg.subject}' и телом '${msg.message}'`)
         homePage.newMsg.click()
         homePage.newMsg.waitForInvisible()
         homePage.who.waitForDisplayed()

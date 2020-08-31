@@ -17,12 +17,12 @@ let msg = new Message(
     `Само письмо`
 )
 
-describe('Проверка отправки сообщения', function() {
-    it('[ЧС] C1234577 Проходим авторизацию', function() {
+describe('Проверка отправки сообщения 4', function() {
+    it('[ЧС] C1234580 Проходим авторизацию', function() {
         homeSteps.open(url)
         homeSteps.checkIfWeLoggedIn()
     });
-    it('[ЧС] C1234577 Создаем письмо', function() {
+    it('[ЧС] C1234580 Создаем письмо', function() {
         homeSteps.open(url)
         homeSteps.createMsg(msg)
     });
