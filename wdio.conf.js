@@ -146,7 +146,7 @@ let wdioConfig = {
                 outputDir: "allure-results",
                 disableMochaHooks: false,
                 disableWebdriverStepsReporting: true,
-                disableWebdriverScreenshotReporting: true
+                disableWebdriverScreenshotReporting: false
             }
         ]
     ],

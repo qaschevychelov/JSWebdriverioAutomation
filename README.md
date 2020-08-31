@@ -37,4 +37,10 @@
 8. in `wdio.conf.js` set `port: 4444`
 9. in `wdio.conf.js` set `path: '/wd/hub'`
 
+# Allure Report
+1. install allure CLI globally via `npm i -g allure-commandline`
+2. run your test with one of the approaches above
+3. in the project folder run `npm run report` - it will create `allure-results` folder
+4. in the project folder run `allure serve` in order to deploy Allure Report
+
 [link]: https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi
