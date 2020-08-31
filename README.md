@@ -18,4 +18,12 @@
 8. in `wdio.conf.js` set `port: 4444`
 9. in `wdio.conf.js` set `path: '/wd/hub'`
 
+ # In Order to run in parallel with Selenoid (on Windows)
+ 1. `cd` in the folder `selenoid`
+ 2. in cmd run `selenoid.exe selenoid start --vnc`
+ 3. in cmd run `selenoid.exe selenoid-ui start`
+ 4. in order to run tests use the following command in cmd `$env:SELENOID='true' ; npm test`
+
+ ### docker-compose.yml doesn't work on Windows currently. Work in progress on it
+
 [link]: https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi

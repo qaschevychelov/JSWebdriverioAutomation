@@ -3,7 +3,7 @@ const { resolve } = require("dns");
 require("ts-node").register({files: true});
 
 let wdioConfig = {
-    // hostname: '192.168.192.1',
+    hostname: 'localhost',
     // port: 4444,
     // path: '/wd/hub',
     //
@@ -312,5 +312,15 @@ if (process.env.DEBUG == '1') {
     wdioConfig.maxInstances = 1,
     wdioConfig['execArgv'] = ["--inspect=127.0.0.1:5858"]
     wdioConfig.mochaOpts.timeout = 360000
+}
+if (process.env.SELENOID) {
+    wdioConfig.hostname = 'localhost'
+    wdioConfig.port = 4444
+    wdioConfig.path = '/wd/hub'
+    wdioConfig.capabilities[0]['selenoid:options'] = {
+        enableVNC: true,
+        enableVideo: false 
+    }
+    wdioConfig.services = []
 }
 exports.config = wdioConfig
