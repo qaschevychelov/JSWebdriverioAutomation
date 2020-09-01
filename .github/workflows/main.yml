@@ -32,7 +32,7 @@ jobs:
             - name: Deploy Allure Report
               uses: JamesIves/github-pages-deploy-action@3.1.0
               with:
-                ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+                ACCESS_TOKEN: ${{ secrets.DEPLOY_ALLURE }}
                 BRANCH: 'master'
                 FOLDER: 'allure-report'
                 TARGET_FOLDER: 'docs'
