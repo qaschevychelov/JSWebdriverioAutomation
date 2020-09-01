@@ -33,9 +33,11 @@ jobs:
               uses: JamesIves/github-pages-deploy-action@3.1.0
               if: always()
               with:
-                ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-                BRANCH: master
-                FOLDER: allure-report
-                TARGET_FOLDER: docs
-                GIT_CONFIG_NAME: Sergey Chevychelov
-                GIT_CONFIG_EMAIL: qa.schevychelov@gmail.com
+                [
+                  'ACCESS_TOKEN': ${{ secrets.ACCESS_TOKEN }},
+                  'BRANCH': 'master',
+                  'FOLDER': 'allure-report',
+                  'TARGET_FOLDER': 'docs',
+                  'GIT_CONFIG_NAME': 'Sergey Chevychelov',
+                  'GIT_CONFIG_EMAIL': 'qa.schevychelov@gmail.com'
+                ]
