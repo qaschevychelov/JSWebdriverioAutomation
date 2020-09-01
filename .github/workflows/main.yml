@@ -36,5 +36,3 @@ jobs:
                 BRANCH: 'master'
                 FOLDER: 'allure-report'
                 TARGET_FOLDER: 'docs'
-                GIT_CONFIG_NAME: 'Sergey Chevychelov'
-                GIT_CONFIG_EMAIL: 'qa.schevychelov@gmail.com'
