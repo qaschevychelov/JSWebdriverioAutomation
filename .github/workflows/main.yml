@@ -30,7 +30,7 @@ jobs:
                 name: allure-report
                 path: ./allure-report
             - name: Deploy Allure Report
-              uses: JamesIves/github-pages-deploy-action@3.5.9
+              uses: JamesIves/github-pages-deploy-action@3.1.0
               with:
                 ACCESS_TOKEN: ${{ secrets.DEPLOY_ALLURE }}
                 BRANCH: 'master'
