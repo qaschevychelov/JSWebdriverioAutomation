@@ -1,0 +1,155 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Проверка отправки сообщения 2",
+    "children" : [ {
+      "name" : "[ЧС] C1234578 Проходим авторизацию",
+      "uid" : "7f5cd6934d08e9cf",
+      "parentUid" : "a33167f833e1f94da91517e731efc16b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138874629,
+        "stop" : 1599138892046,
+        "duration" : 17417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234578 Создаем письмо",
+      "uid" : "e6dc6b10f8c8bf64",
+      "parentUid" : "a33167f833e1f94da91517e731efc16b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138892046,
+        "stop" : 1599138908473,
+        "duration" : 16427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a33167f833e1f94da91517e731efc16b"
+  }, {
+    "name" : "Проверка отправки сообщения 5",
+    "children" : [ {
+      "name" : "[ЧС] C1234581 Проходим авторизацию",
+      "uid" : "2c37feda4205ecaf",
+      "parentUid" : "60dd1ddf47268c2db3a8b0959bb0fc72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138874868,
+        "stop" : 1599138892957,
+        "duration" : 18089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234581 Создаем письмо",
+      "uid" : "a8395613b70dc2b8",
+      "parentUid" : "60dd1ddf47268c2db3a8b0959bb0fc72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138892957,
+        "stop" : 1599138910237,
+        "duration" : 17280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "60dd1ddf47268c2db3a8b0959bb0fc72"
+  }, {
+    "name" : "Проверка отправки сообщения",
+    "children" : [ {
+      "name" : "[ЧС] C1234577 Проходим авторизацию",
+      "uid" : "7415568e5e424822",
+      "parentUid" : "004555801d219ca12a893ca794907b99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138877210,
+        "stop" : 1599138895845,
+        "duration" : 18635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234577 Создаем письмо",
+      "uid" : "264416411b0edb39",
+      "parentUid" : "004555801d219ca12a893ca794907b99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138895846,
+        "stop" : 1599138912927,
+        "duration" : 17081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "004555801d219ca12a893ca794907b99"
+  }, {
+    "name" : "Проверка отправки сообщения 3",
+    "children" : [ {
+      "name" : "[ЧС] C1234579 Проходим авторизацию",
+      "uid" : "a5f8ae76d39bfac",
+      "parentUid" : "c43060e3e0685dd7821d6381dc4b1210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138877612,
+        "stop" : 1599138894606,
+        "duration" : 16994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234579 Создаем письмо",
+      "uid" : "920fcbc0b922bc81",
+      "parentUid" : "c43060e3e0685dd7821d6381dc4b1210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138894606,
+        "stop" : 1599138912270,
+        "duration" : 17664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c43060e3e0685dd7821d6381dc4b1210"
+  }, {
+    "name" : "Проверка отправки сообщения 4",
+    "children" : [ {
+      "name" : "[ЧС] C1234580 Проходим авторизацию",
+      "uid" : "6ed641bbcaf2ac1a",
+      "parentUid" : "fa423261ceb96a0b2610b3103f67ef74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138878679,
+        "stop" : 1599138894592,
+        "duration" : 15913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234580 Создаем письмо",
+      "uid" : "e019aa8ce910b008",
+      "parentUid" : "fa423261ceb96a0b2610b3103f67ef74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138894592,
+        "stop" : 1599138912486,
+        "duration" : 17894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "fa423261ceb96a0b2610b3103f67ef74"
+  } ],
+  "name" : "packages"
+}

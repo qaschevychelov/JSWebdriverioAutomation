@@ -1,0 +1,101 @@
+[ {
+  "uid" : "e6dc6b10f8c8bf64",
+  "name" : "[ЧС] C1234578 Создаем письмо",
+  "time" : {
+    "start" : 1599138892046,
+    "stop" : 1599138908473,
+    "duration" : 16427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5f8ae76d39bfac",
+  "name" : "[ЧС] C1234579 Проходим авторизацию",
+  "time" : {
+    "start" : 1599138877612,
+    "stop" : 1599138894606,
+    "duration" : 16994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c37feda4205ecaf",
+  "name" : "[ЧС] C1234581 Проходим авторизацию",
+  "time" : {
+    "start" : 1599138874868,
+    "stop" : 1599138892957,
+    "duration" : 18089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "920fcbc0b922bc81",
+  "name" : "[ЧС] C1234579 Создаем письмо",
+  "time" : {
+    "start" : 1599138894606,
+    "stop" : 1599138912270,
+    "duration" : 17664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7415568e5e424822",
+  "name" : "[ЧС] C1234577 Проходим авторизацию",
+  "time" : {
+    "start" : 1599138877210,
+    "stop" : 1599138895845,
+    "duration" : 18635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f5cd6934d08e9cf",
+  "name" : "[ЧС] C1234578 Проходим авторизацию",
+  "time" : {
+    "start" : 1599138874629,
+    "stop" : 1599138892046,
+    "duration" : 17417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "264416411b0edb39",
+  "name" : "[ЧС] C1234577 Создаем письмо",
+  "time" : {
+    "start" : 1599138895846,
+    "stop" : 1599138912927,
+    "duration" : 17081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed641bbcaf2ac1a",
+  "name" : "[ЧС] C1234580 Проходим авторизацию",
+  "time" : {
+    "start" : 1599138878679,
+    "stop" : 1599138894592,
+    "duration" : 15913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e019aa8ce910b008",
+  "name" : "[ЧС] C1234580 Создаем письмо",
+  "time" : {
+    "start" : 1599138894592,
+    "stop" : 1599138912486,
+    "duration" : 17894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8395613b70dc2b8",
+  "name" : "[ЧС] C1234581 Создаем письмо",
+  "time" : {
+    "start" : 1599138892957,
+    "stop" : 1599138910237,
+    "duration" : 17280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

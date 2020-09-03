@@ -1,0 +1,98 @@
+{
+  "uid" : "920fcbc0b922bc81",
+  "name" : "[ЧС] C1234579 Создаем письмо",
+  "fullName" : "Проверка отправки сообщения 3.[ЧС] C1234579 Создаем письмо",
+  "historyId" : "6bf1cb255f78035d5ffc6d520a602667",
+  "time" : {
+    "start" : 1599138894606,
+    "stop" : 1599138912270,
+    "duration" : 17664
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем адрес https://ej2.syncfusion.com/showcase/typescript/webmail/#/home",
+      "time" : {
+        "start" : 1599138894632,
+        "stop" : 1599138894632,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создаем письмо с темой 'Тема письма для Матвей' и телом 'Само письмо'",
+      "time" : {
+        "start" : 1599138894696,
+        "stop" : 1599138894696,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Проверка отправки сообщения 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Проверка отправки сообщения 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "[ЧС] C1234579 Создаем письмо"
+  }, {
+    "name" : "package",
+    "value" : "Проверка отправки сообщения 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "920fcbc0b922bc81.json",
+  "parameterValues" : [ "chrome" ]
+}
