@@ -1,0 +1,117 @@
+{
+  "uid" : "480a9187c26d6a94",
+  "name" : "[ЧС] C1234577 Создаем письмо",
+  "fullName" : "Проверка отправки сообщения.[ЧС] C1234577 Создаем письмо",
+  "historyId" : "ea8c0f08d646ad0262bffb3903f7ffcc",
+  "time" : {
+    "start" : 1600111705735,
+    "stop" : 1600111723296,
+    "duration" : 17561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем адрес https://ej2.syncfusion.com/showcase/typescript/webmail/#/home",
+      "time" : {
+        "start" : 1600111705792,
+        "stop" : 1600111705792,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создаем письмо с темой 'Тема письма для Даниил' и телом 'Само письмо'",
+      "time" : {
+        "start" : 1600111705839,
+        "stop" : 1600111705839,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Проверка отправки сообщения"
+  }, {
+    "name" : "testClass",
+    "value" : "Проверка отправки сообщения"
+  }, {
+    "name" : "testMethod",
+    "value" : "[ЧС] C1234577 Создаем письмо"
+  }, {
+    "name" : "package",
+    "value" : "Проверка отправки сообщения"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "264416411b0edb39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599138895846,
+          "stop" : 1599138912927,
+          "duration" : 17081
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "480a9187c26d6a94.json",
+  "parameterValues" : [ "chrome" ]
+}

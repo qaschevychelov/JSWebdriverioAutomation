@@ -1,131 +1,131 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "[ЧС] C1234578 Проходим авторизацию",
-    "uid" : "7f5cd6934d08e9cf",
+    "name" : "[ЧС] C1234579 Проходим авторизацию",
+    "uid" : "8cc2e1edeb3189ff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599138874629,
-      "stop" : 1599138892046,
-      "duration" : 17417
+      "start" : 1600111686891,
+      "stop" : 1600111703047,
+      "duration" : 16156
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234581 Проходим авторизацию",
-    "uid" : "2c37feda4205ecaf",
+    "uid" : "f2895dc0c3747bbb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599138874868,
-      "stop" : 1599138892957,
-      "duration" : 18089
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234577 Проходим авторизацию",
-    "uid" : "7415568e5e424822",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1599138877210,
-      "stop" : 1599138895845,
-      "duration" : 18635
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234579 Проходим авторизацию",
-    "uid" : "a5f8ae76d39bfac",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1599138877612,
-      "stop" : 1599138894606,
-      "duration" : 16994
+      "start" : 1600111688932,
+      "stop" : 1600111703210,
+      "duration" : 14278
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234580 Проходим авторизацию",
-    "uid" : "6ed641bbcaf2ac1a",
+    "uid" : "54543fa44a3ff70d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599138878679,
-      "stop" : 1599138894592,
-      "duration" : 15913
+      "start" : 1600111689140,
+      "stop" : 1600111705315,
+      "duration" : 16175
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "[ЧС] C1234578 Создаем письмо",
-    "uid" : "e6dc6b10f8c8bf64",
+    "name" : "[ЧС] C1234578 Проходим авторизацию",
+    "uid" : "b34c45be3285dcff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599138892046,
-      "stop" : 1599138908473,
-      "duration" : 16427
+      "start" : 1600111689245,
+      "stop" : 1600111704934,
+      "duration" : 15689
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "[ЧС] C1234581 Создаем письмо",
-    "uid" : "a8395613b70dc2b8",
+    "name" : "[ЧС] C1234577 Проходим авторизацию",
+    "uid" : "2918401ee4f906e0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599138892957,
-      "stop" : 1599138910237,
-      "duration" : 17280
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234580 Создаем письмо",
-    "uid" : "e019aa8ce910b008",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1599138894592,
-      "stop" : 1599138912486,
-      "duration" : 17894
+      "start" : 1600111689971,
+      "stop" : 1600111705730,
+      "duration" : 15759
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234579 Создаем письмо",
-    "uid" : "920fcbc0b922bc81",
+    "uid" : "8398562a5efaff58",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599138894606,
-      "stop" : 1599138912270,
-      "duration" : 17664
+      "start" : 1600111703048,
+      "stop" : 1600111720028,
+      "duration" : 16980
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234581 Создаем письмо",
+    "uid" : "6bce2d761071129a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600111703210,
+      "stop" : 1600111720837,
+      "duration" : 17627
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234578 Создаем письмо",
+    "uid" : "fe6b72f1c35ebdaf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600111704935,
+      "stop" : 1600111722513,
+      "duration" : 17578
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234580 Создаем письмо",
+    "uid" : "b81580292331db07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600111705315,
+      "stop" : 1600111723142,
+      "duration" : 17827
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234577 Создаем письмо",
-    "uid" : "264416411b0edb39",
+    "uid" : "480a9187c26d6a94",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1599138895846,
-      "stop" : 1599138912927,
-      "duration" : 17081
+      "start" : 1600111705735,
+      "stop" : 1600111723296,
+      "duration" : 17561
     },
     "flaky" : false,
     "newFailed" : false,
