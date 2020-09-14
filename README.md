@@ -45,6 +45,7 @@
 
 ## How to run Appium tests
 ### This method is implemented in order to automate chat-apps. The approach uses WDIO multiremote feature
+* **WORKS WITH APPIUM V.1.18.1**
 * place mobile tests in `test/android` folder
 * prepare 2 Android emulators/phones
 * run tests with `npm run android.app` - `phone1` and `phone2` will be created. These are driver instances. With them you can control each device
