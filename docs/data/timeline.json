@@ -1,0 +1,155 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "[ЧС] C1234579 Создаем письмо",
+      "uid" : "920fcbc0b922bc81",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138894606,
+        "stop" : 1599138912270,
+        "duration" : 17664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234579 Проходим авторизацию",
+      "uid" : "a5f8ae76d39bfac",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138877612,
+        "stop" : 1599138894606,
+        "duration" : 16994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "[ЧС] C1234580 Создаем письмо",
+      "uid" : "e019aa8ce910b008",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138894592,
+        "stop" : 1599138912486,
+        "duration" : 17894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234580 Проходим авторизацию",
+      "uid" : "6ed641bbcaf2ac1a",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138878679,
+        "stop" : 1599138894592,
+        "duration" : 15913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "[ЧС] C1234581 Создаем письмо",
+      "uid" : "a8395613b70dc2b8",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138892957,
+        "stop" : 1599138910237,
+        "duration" : 17280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234581 Проходим авторизацию",
+      "uid" : "2c37feda4205ecaf",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138874868,
+        "stop" : 1599138892957,
+        "duration" : 18089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "[ЧС] C1234578 Создаем письмо",
+      "uid" : "e6dc6b10f8c8bf64",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138892046,
+        "stop" : 1599138908473,
+        "duration" : 16427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234578 Проходим авторизацию",
+      "uid" : "7f5cd6934d08e9cf",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138874629,
+        "stop" : 1599138892046,
+        "duration" : 17417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "[ЧС] C1234577 Проходим авторизацию",
+      "uid" : "7415568e5e424822",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138877210,
+        "stop" : 1599138895845,
+        "duration" : 18635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234577 Создаем письмо",
+      "uid" : "264416411b0edb39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599138895846,
+        "stop" : 1599138912927,
+        "duration" : 17081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ],
+  "name" : "timeline"
+}
