@@ -1,0 +1,125 @@
+{
+  "uid" : "52280fb32b6bcd2f",
+  "name" : "[ЧС] C1234580 Проходим авторизацию",
+  "fullName" : "Проверка отправки сообщения 4.[ЧС] C1234580 Проходим авторизацию",
+  "historyId" : "ae891e03b714398fd17c28b025cfe4fb",
+  "time" : {
+    "start" : 1600112607048,
+    "stop" : 1600112621014,
+    "duration" : 13966
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем адрес https://ej2.syncfusion.com/showcase/typescript/webmail/#/home",
+      "time" : {
+        "start" : 1600112607162,
+        "stop" : 1600112607162,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем авторизацию",
+      "time" : {
+        "start" : 1600112620642,
+        "stop" : 1600112620642,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Проверка отправки сообщения 4"
+  }, {
+    "name" : "testClass",
+    "value" : "Проверка отправки сообщения 4"
+  }, {
+    "name" : "testMethod",
+    "value" : "[ЧС] C1234580 Проходим авторизацию"
+  }, {
+    "name" : "package",
+    "value" : "Проверка отправки сообщения 4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "54543fa44a3ff70d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600111689140,
+          "stop" : 1600111705315,
+          "duration" : 16175
+        }
+      }, {
+        "uid" : "6ed641bbcaf2ac1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599138878679,
+          "stop" : 1599138894592,
+          "duration" : 15913
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "52280fb32b6bcd2f.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,89 +1,29 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Проверка отправки сообщения 3",
-    "children" : [ {
-      "name" : "[ЧС] C1234579 Проходим авторизацию",
-      "uid" : "8cc2e1edeb3189ff",
-      "parentUid" : "1ef7f3e38e2e78f9b09e599963f25e14",
-      "status" : "passed",
-      "time" : {
-        "start" : 1600111686891,
-        "stop" : 1600111703047,
-        "duration" : 16156
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "[ЧС] C1234579 Создаем письмо",
-      "uid" : "8398562a5efaff58",
-      "parentUid" : "1ef7f3e38e2e78f9b09e599963f25e14",
-      "status" : "passed",
-      "time" : {
-        "start" : 1600111703048,
-        "stop" : 1600111720028,
-        "duration" : 16980
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "1ef7f3e38e2e78f9b09e599963f25e14"
-  }, {
-    "name" : "Проверка отправки сообщения 5",
-    "children" : [ {
-      "name" : "[ЧС] C1234581 Проходим авторизацию",
-      "uid" : "f2895dc0c3747bbb",
-      "parentUid" : "67673c89b722c1ead9989ee71fba3681",
-      "status" : "passed",
-      "time" : {
-        "start" : 1600111688932,
-        "stop" : 1600111703210,
-        "duration" : 14278
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "[ЧС] C1234581 Создаем письмо",
-      "uid" : "6bce2d761071129a",
-      "parentUid" : "67673c89b722c1ead9989ee71fba3681",
-      "status" : "passed",
-      "time" : {
-        "start" : 1600111703210,
-        "stop" : 1600111720837,
-        "duration" : 17627
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "67673c89b722c1ead9989ee71fba3681"
-  }, {
     "name" : "Проверка отправки сообщения 4",
     "children" : [ {
       "name" : "[ЧС] C1234580 Проходим авторизацию",
-      "uid" : "54543fa44a3ff70d",
+      "uid" : "52280fb32b6bcd2f",
       "parentUid" : "6e37287d00aed8f2ebcd9f56e9fd4b4f",
       "status" : "passed",
       "time" : {
-        "start" : 1600111689140,
-        "stop" : 1600111705315,
-        "duration" : 16175
+        "start" : 1600112607048,
+        "stop" : 1600112621014,
+        "duration" : 13966
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "[ЧС] C1234580 Создаем письмо",
-      "uid" : "b81580292331db07",
+      "uid" : "6ecd5728dd9df4bf",
       "parentUid" : "6e37287d00aed8f2ebcd9f56e9fd4b4f",
       "status" : "passed",
       "time" : {
-        "start" : 1600111705315,
-        "stop" : 1600111723142,
-        "duration" : 17827
+        "start" : 1600112621014,
+        "stop" : 1600112636168,
+        "duration" : 15154
       },
       "flaky" : false,
       "newFailed" : false,
@@ -94,26 +34,26 @@
     "name" : "Проверка отправки сообщения 2",
     "children" : [ {
       "name" : "[ЧС] C1234578 Проходим авторизацию",
-      "uid" : "b34c45be3285dcff",
+      "uid" : "d7a995f3ce1e018c",
       "parentUid" : "5e056262057d69c5d49245f160cf4813",
       "status" : "passed",
       "time" : {
-        "start" : 1600111689245,
-        "stop" : 1600111704934,
-        "duration" : 15689
+        "start" : 1600112608691,
+        "stop" : 1600112623990,
+        "duration" : 15299
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "[ЧС] C1234578 Создаем письмо",
-      "uid" : "fe6b72f1c35ebdaf",
+      "uid" : "44c25887d4c15823",
       "parentUid" : "5e056262057d69c5d49245f160cf4813",
       "status" : "passed",
       "time" : {
-        "start" : 1600111704935,
-        "stop" : 1600111722513,
-        "duration" : 17578
+        "start" : 1600112623991,
+        "stop" : 1600112640400,
+        "duration" : 16409
       },
       "flaky" : false,
       "newFailed" : false,
@@ -124,32 +64,92 @@
     "name" : "Проверка отправки сообщения",
     "children" : [ {
       "name" : "[ЧС] C1234577 Проходим авторизацию",
-      "uid" : "2918401ee4f906e0",
+      "uid" : "3c6ce2bfeaf006bb",
       "parentUid" : "13ecf62146f90f878212535ae3a08231",
       "status" : "passed",
       "time" : {
-        "start" : 1600111689971,
-        "stop" : 1600111705730,
-        "duration" : 15759
+        "start" : 1600112610187,
+        "stop" : 1600112623235,
+        "duration" : 13048
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "[ЧС] C1234577 Создаем письмо",
-      "uid" : "480a9187c26d6a94",
+      "uid" : "d6e20639494855bc",
       "parentUid" : "13ecf62146f90f878212535ae3a08231",
       "status" : "passed",
       "time" : {
-        "start" : 1600111705735,
-        "stop" : 1600111723296,
-        "duration" : 17561
+        "start" : 1600112623235,
+        "stop" : 1600112638879,
+        "duration" : 15644
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "13ecf62146f90f878212535ae3a08231"
+  }, {
+    "name" : "Проверка отправки сообщения 5",
+    "children" : [ {
+      "name" : "[ЧС] C1234581 Проходим авторизацию",
+      "uid" : "344d95fe9537e452",
+      "parentUid" : "67673c89b722c1ead9989ee71fba3681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600112611876,
+        "stop" : 1600112625457,
+        "duration" : 13581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234581 Создаем письмо",
+      "uid" : "9eeae12054382d21",
+      "parentUid" : "67673c89b722c1ead9989ee71fba3681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600112625457,
+        "stop" : 1600112641691,
+        "duration" : 16234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "67673c89b722c1ead9989ee71fba3681"
+  }, {
+    "name" : "Проверка отправки сообщения 3",
+    "children" : [ {
+      "name" : "[ЧС] C1234579 Проходим авторизацию",
+      "uid" : "e25afc7a152e2216",
+      "parentUid" : "1ef7f3e38e2e78f9b09e599963f25e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600112612894,
+        "stop" : 1600112625924,
+        "duration" : 13030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "[ЧС] C1234579 Создаем письмо",
+      "uid" : "dbd73fff7f13b0ce",
+      "parentUid" : "1ef7f3e38e2e78f9b09e599963f25e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600112625924,
+        "stop" : 1600112641954,
+        "duration" : 16030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1ef7f3e38e2e78f9b09e599963f25e14"
   } ],
   "name" : "suites"
 }
