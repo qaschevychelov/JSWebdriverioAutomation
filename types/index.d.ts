@@ -9,3 +9,5 @@ declare module WebdriverIO {
         waitForInvisible: () => boolean
     }
 }
+declare const phone2: WebdriverIO.BrowserObject
+declare const phone1: WebdriverIO.BrowserObject

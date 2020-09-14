@@ -8,7 +8,8 @@
             "node",
             "@wdio/sync",
             "@wdio/mocha-framework",
-            "@types/faker"
+            "@types/faker",
+            "pg"
         ],
         "typeRoots": ["./types"],
         "module": "commonjs",
