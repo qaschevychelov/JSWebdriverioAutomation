@@ -43,6 +43,8 @@
 3. in the project folder run `npm run report` - it will create `allure-results` folder
 4. in the project folder run `allure serve` in order to deploy Allure Report
 
+# You can see Allure report for this automation project [here][allure]
+
 ## How to run Appium tests
 ### This method is implemented in order to automate chat-apps. The approach uses WDIO multiremote feature
 * **WORKS WITH APPIUM V.1.18.1**
@@ -51,3 +53,4 @@
 * run tests with `npm run android.app` - `phone1` and `phone2` will be created. These are driver instances. With them you can control each device
 
 [link]: https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi
+[allure]: https://qaschevychelov.github.io/JSWebdriverioAutomation/
