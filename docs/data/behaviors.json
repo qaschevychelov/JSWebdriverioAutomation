@@ -1,131 +1,131 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "[ЧС] C1234580 Проходим авторизацию",
-    "uid" : "52280fb32b6bcd2f",
+    "name" : "[ЧС] C1234579 Проходим авторизацию",
+    "uid" : "f44bdf5b8faf69",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1600112607048,
-      "stop" : 1600112621014,
-      "duration" : 13966
+      "start" : 1600259303287,
+      "stop" : 1600259319587,
+      "duration" : 16300
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234580 Проходим авторизацию",
+    "uid" : "9a8c7aee837aca0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600259303699,
+      "stop" : 1600259319894,
+      "duration" : 16195
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234578 Проходим авторизацию",
-    "uid" : "d7a995f3ce1e018c",
+    "uid" : "19593d43d0faacec",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1600112608691,
-      "stop" : 1600112623990,
-      "duration" : 15299
+      "start" : 1600259303986,
+      "stop" : 1600259320621,
+      "duration" : 16635
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234577 Проходим авторизацию",
-    "uid" : "3c6ce2bfeaf006bb",
+    "uid" : "c0ce45319f9bfeea",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1600112610187,
-      "stop" : 1600112623235,
-      "duration" : 13048
+      "start" : 1600259305564,
+      "stop" : 1600259321533,
+      "duration" : 15969
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234581 Проходим авторизацию",
-    "uid" : "344d95fe9537e452",
+    "uid" : "149293a649e3b598",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1600112611876,
-      "stop" : 1600112625457,
-      "duration" : 13581
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234579 Проходим авторизацию",
-    "uid" : "e25afc7a152e2216",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1600112612894,
-      "stop" : 1600112625924,
-      "duration" : 13030
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234580 Создаем письмо",
-    "uid" : "6ecd5728dd9df4bf",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1600112621014,
-      "stop" : 1600112636168,
-      "duration" : 15154
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234577 Создаем письмо",
-    "uid" : "d6e20639494855bc",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1600112623235,
-      "stop" : 1600112638879,
-      "duration" : 15644
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234578 Создаем письмо",
-    "uid" : "44c25887d4c15823",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1600112623991,
-      "stop" : 1600112640400,
-      "duration" : 16409
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "[ЧС] C1234581 Создаем письмо",
-    "uid" : "9eeae12054382d21",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1600112625457,
-      "stop" : 1600112641691,
-      "duration" : 16234
+      "start" : 1600259306453,
+      "stop" : 1600259322067,
+      "duration" : 15614
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "[ЧС] C1234579 Создаем письмо",
-    "uid" : "dbd73fff7f13b0ce",
+    "uid" : "b0ec0d8769644f8e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1600112625924,
-      "stop" : 1600112641954,
-      "duration" : 16030
+      "start" : 1600259319588,
+      "stop" : 1600259336347,
+      "duration" : 16759
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234580 Создаем письмо",
+    "uid" : "4ba782abb1843e8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600259319894,
+      "stop" : 1600259338064,
+      "duration" : 18170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234578 Создаем письмо",
+    "uid" : "1e9cf96a03b06b61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600259320622,
+      "stop" : 1600259339413,
+      "duration" : 18791
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234577 Создаем письмо",
+    "uid" : "c3de23aaeec814",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600259321534,
+      "stop" : 1600259339582,
+      "duration" : 18048
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "[ЧС] C1234581 Создаем письмо",
+    "uid" : "ce798b945f141d5a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600259322067,
+      "stop" : 1600259340050,
+      "duration" : 17983
     },
     "flaky" : false,
     "newFailed" : false,

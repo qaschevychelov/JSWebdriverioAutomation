@@ -1,6 +1,17 @@
 {
   "total" : 5,
   "items" : [ {
+    "uid" : "1ef7f3e38e2e78f9b09e599963f25e14",
+    "name" : "Проверка отправки сообщения 3",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "6e37287d00aed8f2ebcd9f56e9fd4b4f",
     "name" : "Проверка отправки сообщения 4",
     "statistic" : {
@@ -36,17 +47,6 @@
   }, {
     "uid" : "67673c89b722c1ead9989ee71fba3681",
     "name" : "Проверка отправки сообщения 5",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "1ef7f3e38e2e78f9b09e599963f25e14",
-    "name" : "Проверка отправки сообщения 3",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
